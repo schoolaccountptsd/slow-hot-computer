@@ -5,7 +5,7 @@ var img;
 var container = document.getElementById('container');
 
 function preload() {
-  img = loadImage("hotslow.png");
+  img = loadImage("fastcold.png");
   addImage();
 }
 
@@ -43,7 +43,7 @@ var totalImages = 0;
 
 function addImage(){
   var img = document.createElement('img');
-  img.src = "http://slowhotcomputer.com/hotslow.png?v=" + Math.random();
+  img.src = "http://slowhotcomputer.com/fastcold.png?v=" + Math.random();
   // img.style.position = 'absolute'
   // img.style.top = '0'
   // img.style.left = '0'
